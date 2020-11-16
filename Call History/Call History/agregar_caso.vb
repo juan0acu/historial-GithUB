@@ -45,7 +45,7 @@ Public Class agregar_caso
 
     Private Sub list_status_SelectedIndexChanged(sender As Object, e As EventArgs) Handles list_status.SelectedIndexChanged
         cb_status.SelectedIndex = list_status.SelectedIndex
-
+        'prueba2
     End Sub
 
     Private Sub Bot_aceptar_Click(sender As Object, e As EventArgs) Handles Bot_aceptar.Click
