@@ -35,7 +35,7 @@ Public Class agregar_caso
             cb_status.Items.Add(cls_busqueda.cls_principal.reader1.Item("descripcion_status"))
             list_status.Items.Add(cls_busqueda.cls_principal.reader1.Item("id_status"))
         Loop
-        cls_busqueda.cls_principal.reader1.Close()
+        cls_busqueda.cls_principal.reader1.Close() 'prueba de versión
 
     End Sub
 
